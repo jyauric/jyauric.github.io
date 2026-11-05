@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Licenciada en Economía por la Universidad del Pacífico y analista en el Ministerio de Educación del Perú.
+Licenciada en Economía de la Universidad del Pacífico con experiencia en investigación de temas sociales, económicos y políticos, y consultoría para entidades del sector público y organismos internacionales. Interés en las áreas de investigación, políticas públicas, presupuesto y proyectos de inversión pública.
 
 [CV en PDF](/files/cv.pdf) · [GitHub](https://github.com/jyauric) · [LinkedIn](https://www.linkedin.com/in/josselinyauri19)
 
