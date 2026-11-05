@@ -1,0 +1,14 @@
+{% assign p = include.proyecto %}
+<article class="tarjeta">
+  <a class="tarjeta__imagen{% if p.imagen_ajuste == 'cubrir' %} tarjeta__imagen--cubrir{% endif %}" href="{{ p.url }}">
+    <img src="/images/{{ p.imagen }}" alt="{{ p.imagen_alt }}" loading="lazy">
+  </a>
+  <div class="tarjeta__texto">
+    <p class="tarjeta__etiquetas">{% for e in p.etiquetas %}<span>{{ e }}</span>{% endfor %}</p>
+    <h3 class="tarjeta__titulo"><a href="{{ p.url }}">{{ p.title }}</a></h3>
+    <p class="tarjeta__pregunta">{{ p.pregunta }}</p>
+    <p class="tarjeta__cifra"><strong>{{ p.cifra }}</strong>{{ p.cifra_texto }}</p>
+    <p class="tarjeta__enlaces">{% for e in p.enlaces %}<a href="{{ e.url }}">{{ e.texto }}</a>{% endfor %}<a href="{{ p.url }}">Ver detalle</a></p>
+    {% if p.nota %}<p class="tarjeta__nota">{{ p.nota }}</p>{% endif %}
+  </div>
+</article>

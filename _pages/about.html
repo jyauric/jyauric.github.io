@@ -1,0 +1,53 @@
+---
+permalink: /
+title: "Josselin Yauri"
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
+---
+
+<p class="portada__bio">Licenciada en Economía de la Universidad del Pacífico con experiencia en investigación de temas sociales, económicos y políticos, y consultoría para entidades del sector público y organismos internacionales. Interés en las áreas de investigación, políticas públicas, presupuesto y proyectos de inversión pública.</p>
+
+<p class="botones">
+  <a class="boton boton--principal" href="/files/cv.pdf">CV en PDF</a>
+  <a class="boton" href="https://github.com/jyauric">GitHub</a>
+  <a class="boton" href="https://www.linkedin.com/in/josselinyauri19">LinkedIn</a>
+</p>
+
+<h2 id="proyectos">Proyectos</h2>
+
+<div class="tarjetas">
+  {% for p in site.portfolio %}{% include tarjeta-proyecto.html proyecto=p %}{% endfor %}
+</div>
+
+<h2 id="demo">Demo: tablero de dengue</h2>
+
+<iframe src="https://jyauric.github.io/dengue-nino-peru/web/" title="Tablero de dengue y El Niño costero en el Perú" loading="lazy"></iframe>
+
+<p><a href="https://jyauric.github.io/dengue-nino-peru/web/">Abrir el tablero en pantalla completa</a></p>
+
+<h2 id="trayectoria">Trayectoria</h2>
+
+<div class="trayectoria">
+  <div>
+    <h3>Experiencia</h3>
+    <ul>
+      <li><strong>Analista</strong> <span>Ministerio de Educación · feb. 2025 – actualidad</span></li>
+      <li><strong>Economista del Programa de Investigación e Incidencia</strong> <span>ONG CooperAcción · jul. 2022 – ene. 2025</span></li>
+      <li><strong>Jefe de prácticas</strong> <span>Universidad del Pacífico · mar. 2024 – ene. 2025</span></li>
+      <li><strong>Practicante profesional</strong> <span>GRADE · set. 2021 – jul. 2022</span></li>
+      <li><strong>Pasante en la Dirección de Estudios Macroeconómicos</strong> <span>CAF · may. 2021 – oct. 2021</span></li>
+    </ul>
+  </div>
+  <div>
+    <h3>Formación</h3>
+    <ul>
+      <li><strong>Especialización en Ciencia de Datos para las Ciencias Sociales y la Gestión Pública</strong> <span>QLAB - PUCP · ago. 2026 – actualidad</span></li>
+      <li><strong>Especialización en Políticas Públicas y Gobierno</strong> <span>Videnza Escuela de Gestores · oct. 2022 – mar. 2023 · Tercer puesto</span></li>
+      <li><strong>Titulada en Economía</strong> <span>Universidad del Pacífico · 2023 · Décimo superior (2020)</span></li>
+    </ul>
+  </div>
+</div>
+
+<p class="creditos">Música del reel: "Dreams Become Real", Kevin MacLeod (incompetech.com), CC BY 4.0. Este sitio y los proyectos se hicieron con apoyo de Claude Code; revisé las cifras contra las fuentes.</p>

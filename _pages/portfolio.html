@@ -1,14 +1,10 @@
 ---
-layout: archive
-title: "Portfolio"
+layout: single
+title: "Proyectos"
 permalink: /portfolio/
 author_profile: true
 ---
 
-{% include base_path %}
-
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
-
+<div class="tarjetas">
+  {% for p in site.portfolio %}{% include tarjeta-proyecto.html proyecto=p %}{% endfor %}
+</div>
